@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(68.15deg, #194838 16.62%, #AED4A5 85.61%);
+    color: #194838;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    border-radius: 20px 0;
+    height: 450px;
+    width: 850px;
+    margin: 90px 0;
+    box-shadow: 4px 5px 4px rgba(73, 73, 73, 0.25);
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1 {
+    font-weight: 500;
+    font-size: 13px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: none;
+    color: #194838;
+    background-color: #AED4A5;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.button1:hover {
+    background-color: #8eb884;
+}
+
+.button1 img {
+    height: 12px;
+    margin-right: 10px;
+}
+
+.button2 {
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px 22px;
+    border-radius: 20px;
+    border: none;
+    color: #194838;
+    background-color: #AED4A5;
+    margin: 15px 0;
+}
+
+.button2:hover {
+    background-color: #8eb884;
+}
+
+.button3 {
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px 42px;
+    border-radius: 20px;
+    border: none;
+    color: #AED4A5;
+    background-color: #194838;
+    margin: 5px 0;
+}
+
+.button3:hover {
+    background-color: #4a7a3e;
+}
+
+.nature-image {
+    object-fit:cover;
+    border-radius: 20px 0;
+}
+
+.login-content {
+    padding: 42px;
+    width: 400px;
+}
+
+.redes {
+    height: 18px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+}
+
+.separator p {
+    margin: 0 10px;
+    color: #194838;
+    font-size: 10pt;
+}
+
+hr {
+    flex-grow: 1;
+    border: 0;
+    height: 1px;
+    background: #194838;
+  }
+
+  form {
+    display: flex;
+    margin-top: 15px;
+    font-size: 11pt;
+    font-weight: 500;
+  }
+
+  input {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border:#194838 1px solid;
+    margin: 10px 15px 10px 0;
+  }
+
+  .terms {
+    display: flex;
+    align-items: center;
+    font-size: 9pt;
+    font-weight: 500;
+  }
+
+  #checkbox {
+    margin-right: 7px;
+    width: 16px;
+  }
